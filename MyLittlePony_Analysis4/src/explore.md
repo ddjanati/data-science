@@ -32,3 +32,8 @@ grep -Ee ',"Twilight Sparkle"' -Ee ',"Twilight Sparkle and .+"' -Ee ',".+ and Tw
 Repeat pattern by swapping names of respective pony.
 
 Total lines: (wc -l clean_dialog.csv) = 36,860 -1 = 36,859
+
+Task 5.
+- git add .
+- git commit -m "My Little Pony Exploration"
+- git pull
