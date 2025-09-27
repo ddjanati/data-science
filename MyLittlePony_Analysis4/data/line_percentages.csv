@@ -1,6 +1,7 @@
-pony_name, total_line_count, percent_all_lines
-Twilight Sparkle, 4586, 12.4% 
-Rarity, 2561, 6.95% 
-Pinkie Pie, 2781, 7.54%
-Rainbow Dash, 3019, 8.19%
-Fluttershy, 2060, 5.59%
+pony_name, total_line_count, percent_all_lines\n
+Twilight Sparkle, 4831, 13.10%
+Rarity, 2722, 7.38%
+Pinkie Pie, 2922, 7.92%
+Rainbow Dash, 3154, 8.55%
+Applejack, 2871, 7.78%
+Fluttershy, 2149, 5.83%

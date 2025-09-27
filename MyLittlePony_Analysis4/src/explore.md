@@ -27,13 +27,13 @@ Task 3.
     Because there are commas in the text fields themselves, delimiting with commas will not be reliable. We have to view the csv file as delimited by quotation marks, but since there sometimes are quotation marks in the text fields of "dialog", this delimitation itself has its limits (space after quotes to be considered, but cut won't "cut" it). Moreover, there are several occurrences of multiple speakers for one line, which could complicate speaker frequency analyses.
 
 Task 4.
-grep -Ee ',"Twilight Sparkle"' -Ee ',"Twilight Sparkle and .+"' -Ee ',".+ and Twilight Sparkle"' clean_dialog.csv | wc -l
+bash script executing command csvtool -t ',' col 3 $input | grep -i "$pony" | wc -l for every pony
 
-Repeat pattern by swapping names of respective pony.
+percentage then computed "scale=2; 100 * $value / $total_lines" | bc and outputed in csv file
 
-Total lines: (wc -l clean_dialog.csv) = 36,860 -1 = 36,859
+bash ../scripts/pony_analysis.sh clean_dialog.csv line_percentages.csv
 
 Task 5.
 - git add .
 - git commit -m "My Little Pony Exploration"
-- git pull
+- git push
